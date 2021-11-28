@@ -14,3 +14,4 @@ app.use(express.json());
 
 app.use('/user', controllers.userController);
 app.use('/login', controllers.loginController);
+app.use('/', controllers.statusController);
